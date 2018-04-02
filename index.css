@@ -1,11 +1,17 @@
 body {
       position: relative;
+      background-color: #D3D3D3;
   }
   #section1 {padding-top:50px;height:500px;color: #fff; background-color: #D3D3D3;}
   #section2 {padding-top:50px;height:250px;color: #fff; background-color: #A9A9A9;}
   #section3 {padding-top:50px;color: #fff; background-color: #D3D3D3;}
   #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
   #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+
+summary{
+  background-color: #A9A9A9;
+  color: white;
+}
 
 .fa {
   padding: 20px;
@@ -35,3 +41,4 @@ body {
   background: #A9A9A9;
   color: white;
 }
+
