@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.imagePadding{
+	margin:10px; 
+	padding:10px;
+}
+
+#summary{
+	
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+
+  text-align: center;
+  text-decoration: none;
+  
+  margin: 5px 2px;
+  border-radius: 20%;
+  
+  
+}
+  
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #A9A9A9;
+  color: white;
+}
+
+.fa-stack-overflow {
+  background: #FFA500;
+  color: white;
+}
