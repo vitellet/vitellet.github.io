@@ -7,8 +7,11 @@
 	padding:10px;
 }
 
-#summary{
-	
+.wrap {
+  padding: 20px;
+  float: right;
+  max-width: 400px;
+  max-height: 400px;
 }
 
 .fa {
