@@ -1,90 +1,74 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Resume</title>
-<link href="AboutPageAssets/styles/aboutPageStyle.css" rel="stylesheet" type="text/css">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume</title>
 
-<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
-<script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
-</head>
-
-<body>
-<br>
-<br> 
-<!-- Header content -->
-<header>
-  <div class="profilePhoto"> 
-    <!-- Profile photo --> 
-    <img src="images/resume_image.png" alt="sample"> </div>
-  <!-- Identity details -->
-  <section class="profileHeader">
-    <h1>Timothy Dean Vitelle</h1>
-    <h3>Software Engineer</h3>
-    <hr>
-    <p>I am a Software Engineer with a passion for finding algorithms in everyday life. I have 3+ years experience in C++, 1+ years experience in Java, and 1 year experience in JavaScript. I have worked on projects ranging from Android mobile applications to a fully functional file system written in C++. I enjoy working on projects and platforms across all industries; in search of the next big challenge.</p>
-  </section>
-  <!-- Links to Social network accounts -->
-  <aside class="socialNetworkNavBar">
-    <div class="socialNetworkNav"> 
-      <!-- Add a Anchor tag with nested img tag here --> 
-		<a href="https://www.linkedin.com/in/vitellet/"><img src="images/linkedin_button.png" alt="linkedin"></a> </div>
-    <div class="socialNetworkNav"> 
-      <!-- Add a Anchor tag with nested img tag here --> 
-      <a href="https://twitter.com/Gagglecon89"><img src="images/twitter_button.png" alt="twitter"></a> </div>
-	<div class="socialNetworkNav"> 
-      <!-- Add a Anchor tag with nested img tag here --> 
-      <a href="https://github.com/vitellet"><img src="images/github_button.png"  alt="github"></a> </div>
-	
-  </aside>
-</header>
-<!-- content -->
-<section class="mainContent"> 
-  <!-- Contact details -->
-  <section class="section1">
-    <h2 class="sectionTitle">Education</h2>
-    <hr class="sectionTitleRule">
-    <hr class="sectionTitleRule2">
-    <div class="section1Content">
-	  <h2 class="sectionContentTitle" style="color: darkgray">California State University - San Bernardino</h2>
-	  <h3 class="sectionContentSubTitle" style="color: darkgray">Bachelor of Science - Computer Science | 2017</h3>
-      <p style="color: darkgray"><span>GPA :</span> 3.165</p>
-      <p style="color: darkgray"><span>Organizations :</span> CSE Club, ACM Club</p>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
 	  
-    </div>
-  </section>
-  <!-- Previous experience details -->
-  <section class="section2">
-    <h2 class="sectionTitle">Experience</h2>
-    <hr class="sectionTitleRule">
-    <hr class="sectionTitleRule2">
-    <!-- First Title & company details  -->
-    <article class="section2Content">
-      <h2 class="sectionContentTitle"> Software Engineer - MyHealth</h2>
-      <h3 class="sectionContentSubTitle">2017 - Present</h3>
-      <p class="sectionContent"> Developing software for mobile applications to be used by the healthcare industry.
-		<ul style="color: darkgray">
-			<li>Collaborated with the founder to design software that met expectations.</li>
-			<li>Applied the founders concept to create an appealing user interface.</li>
-			<li>Researched new and exciting technologies to use within the system.</li>
-			<li>Utilized knowledge of the Java programming language to develop software for Android applications.</li> 
-			<li>Responsible for testing software to ensure proper user end functionality</li> 
-		 </ul>
-		</p>
-    </article>
-    <!-- Replicate the above Div block to add more title and company details --> 
-  </section>
-  <!-- Links to expore your past projects and download your CV -->
-  <aside class="externalResourcesNav">
-    <div class="externalResources"> <a href="#" title="Download CV Link">DOWNLOAD CV</a> </div>
-    
-  </aside>
-</section>
-<footer>
-  <hr>
-  <p class="footerDisclaimer">2018  Copyright - <span>All Rights Reserved</span></p>
-  <p class="footerNote">Timothy Vitelle - <span>tim@vitelle.io</span></p>
-</footer>
-</body>
+	<!-- v -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="css/index.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <a class="navbar-brand" href="index.html">VITELLE.IO</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link active" href="resume.html">RESUME</a>
+             </li>
+			 <li class="nav-item">
+                <a class="nav-link" href="http://blog.vitelle.io/">BLOG</a>
+             </li>
+             <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                CODE
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="c++.html">C++</a>
+                   <a class="dropdown-item" href="java.html">JAVA</a>
+                   <a class="dropdown-item" href="python.html">PYTHON</a>
+                </div>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link disabled" href="#">GAME</a>
+             </li>
+			 <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+             </li>
+		   </ul>
+       </div>
+    </nav>
+	<iframe src="documents/vitelle_timothy_resume_public.pdf" style="width:100%; height:1000px;" frameborder="0"></iframe>
+       <br>
+       <hr>
+       <div class="row">
+		  <div class="text-center col-lg-6 offset-lg-3">
+			 <!--Social Media Links-->
+			 <a href="https://www.linkedin.com/in/vitellet/" class="fa fa-linkedin fa-2x"></a>
+			 <a href="https://twitter.com/Gagglecon89" class="fa fa-twitter fa-2x"></a>
+			 <a href="https://github.com/vitellet" class="fa fa-github fa-2x"></a>
+			 <a href="https://github.com/vitellet" class="fa fa-stack-overflow fa-2x"></a>
+			 <!-- -->
+			 <p>Copyright &copy; 2018 &middot; All Rights Reserved &middot; Timothy Vitelle</p>
+		  </div>
+ 		</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.0.0.js"></script>
+  </body>
 </html>
